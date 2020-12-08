@@ -20,7 +20,7 @@ $blue: #3581f4; /* Mixins */
 }
 
 @mixin iconed-title {
-	.d-flex{
+	.format{
 		font-size: 19px;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -29,6 +29,22 @@ $blue: #3581f4; /* Mixins */
 			width: 29px;
 			height: 28px;
 			margin-right: 10px;
+		}
+	}
+}
+
+@mixin square-pic {
+	.square-pic {
+		img {
+			width: 95px;
+			height: 95px;
+			margin-right: 15px;
+		}
+
+		a {
+			font-weight: bold;
+			color: black;
+			font-size: 17px;
 		}
 	}
 }
@@ -261,18 +277,8 @@ h2 {
 	@include block-separation;
 }
 
-.square-pic {
-	img {
-		width: 95px;
-		height: 95px;
-		margin-right: 15px;
-	}
-
-	a {
-		font-weight: bold;
-		color: black;
-		font-size: 17px;
-	}
+.more-stories {
+	@include square-pic;
 }
 
 .my-turn::before {
@@ -356,7 +362,7 @@ h2 {
 			font-size: 16px;
 			font-weight: bold;
 		}
-		
+
 		.top-img {
 
 			position: static;
@@ -365,7 +371,7 @@ h2 {
 				position: static;
 				display: inline-block;
 				background-color: $red;
-				
+
 				a {
 				color: #fff;
 				}
@@ -375,7 +381,7 @@ h2 {
 				font-size: 17px;
 				font-weight: bold;
 				text-transform: uppercase;
-				
+
 				a{
 					color: $red;
 				}
@@ -396,5 +402,89 @@ h2 {
 }
 
 .editors-pick:before {
+	@include block-separation;
+}
+
+.us-news {
+	@include square-pic;
+
+	a {
+		text-transform: capitalize;
+		font-size: 17px;
+	}
+}
+
+.bottom-title {
+	color: $red;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.position-relative {
+
+	img {
+		width: 170px;
+		height: 228px;
+	}
+
+	.position-absolute {
+		top: 13px;
+		left: 80px;
+	}
+}
+
+.subscribe-section:before {
+	@include block-separation;
+}
+
+.subscribe-box {
+	background-color: $background-color;
+	padding: 20px;
+}
+
+.subscribe-img {
+	padding-right: 80px;
+}
+
+.info-text {
+	p {
+		font-size: 17px;
+	}
+	.btn {
+		background-color: $red;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
+
+.newsletter:before {
+	@include block-separation;
+}
+
+.newsletter {
+	.card {
+		width: 100%;
+	}
+
+	.input-group{
+		input {
+			line-height: 30px;
+			font-size: 14px;
+		}
+	}
+
+	.btn {
+		background-color: $red;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
+
+.footer::before{
 	@include block-separation;
 }
