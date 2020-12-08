@@ -504,14 +504,26 @@ li {
 
 footer {
   background-color: #fff;
-}
-
-.social-links {
   padding: 0 20px;
 }
-
-.social-icons {
+footer .social-links img {
+  width: 236px;
+}
+footer .social-links .social-icons {
   padding: 0;
+  font-size: 24px;
+  line-height: 24px;
+}
+footer .social-links .social-icons li {
+  margin-right: 5px;
+}
+footer .edition-links {
+  font-size: 14px;
+  line-height: 15px;
+  padding-left: 0;
+}
+footer .edition-links li {
+  margin: 6px 20px 6px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
