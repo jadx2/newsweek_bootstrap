@@ -42,6 +42,10 @@ h2 {
   font-weight: bold;
 }
 
+li {
+  list-style: none;
+}
+
 /* NavBar */
 .mobile {
   position: fixed;
@@ -496,6 +500,18 @@ h2 {
   width: 100vw;
   height: 18px;
   margin-bottom: 15px;
+}
+
+footer {
+  background-color: #fff;
+}
+
+.social-links {
+  padding: 0 20px;
+}
+
+.social-icons {
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

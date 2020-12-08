@@ -91,6 +91,10 @@ h2 {
 	line-height: 24px;
 	font-weight: bold;
 }
+
+li {
+	list-style: none;
+}
 /* NavBar */
 
 .mobile {
@@ -487,4 +491,16 @@ h2 {
 
 .footer::before{
 	@include block-separation;
+}
+
+footer {
+	background-color: #fff;
+}
+
+.social-links {
+	padding: 0 20px;
+}
+
+.social-icons {
+	padding: 0;
 }
