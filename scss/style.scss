@@ -44,7 +44,7 @@ body {
 	color: $grey;
 	font-size: 16px;
 	font-weight: bold;
-	padding-bottom: 11px;
+	margin-bottom: 0;
 }
 
 img {
@@ -111,36 +111,30 @@ h2 {
 /* Main */
 
 .container-fluid {
-	padding: 15px;
-	margin-top: 50px;
 	max-width: 1310px;
 	background-color: #fff;
 
-			.article {
-			padding-bottom: 20px;
+			.card {
+				.top-img {
+					position: relative;
+					min-height: 33px;
 
-			.top-img {
-				position: relative;
-				margin-bottom: 10px;
-				min-height: 33px;
+					.category {
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						z-index: 1;
+						background-color: rgba(255, 255, 255, 0.9);
+						text-transform: uppercase;
+						font-weight: bold;
+						font-size: 17px;
+						padding: 8px 15px;
 
-				.category {
-					position: absolute;
-					bottom: 0;
-					left: 0;
-					z-index: 1;
-					background-color: rgba(255, 255, 255, 0.9);
-					text-transform: uppercase;
-					font-weight: bold;
-					font-size: 17px;
-					padding: 8px 15px;
-
-					a {
-					color: $red;
+						a {
+						color: $red;
+						}
 					}
 				}
-			}
-
 		}
 }
 
@@ -180,6 +174,8 @@ h2 {
 
 .decoration {
 	position: relative;
+	display: flex;
+	justify-content: center;
 	margin: 10px auto;
 
 	.vs {
@@ -193,7 +189,6 @@ h2 {
 		font-size: 14px;
 		text-align: center;
 		padding-top: 8px;
-		left: 50%;
 		z-index: 1;
 	}
 }
@@ -203,7 +198,6 @@ h2 {
 	display: block;
 	position: absolute;
 	background-color: $grey;
-	width: 100vw;
 	height: 1px;
 	left: 0;
 	right: 0;
@@ -215,7 +209,6 @@ h2 {
 	display: block;
 	position: absolute;
 	background-color: $grey;
-	width: 100vw;
 	height: 1px;
 	left: 0;
 	right: 0;
@@ -248,3 +241,8 @@ h2 {
 .opinion::before{
 	@include block-separation;
 }
+
+.categories-01:before{
+	@include block-separation;
+}
+

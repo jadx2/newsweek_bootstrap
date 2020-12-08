@@ -23,7 +23,7 @@ body {
   color: rgba(3, 3, 3, 0.4);
   font-size: 16px;
   font-weight: bold;
-  padding-bottom: 11px;
+  margin-bottom: 0;
 }
 
 img {
@@ -85,20 +85,14 @@ h2 {
 
 /* Main */
 .container-fluid {
-  padding: 15px;
-  margin-top: 50px;
   max-width: 1310px;
   background-color: #fff;
 }
-.container-fluid .article {
-  padding-bottom: 20px;
-}
-.container-fluid .article .top-img {
+.container-fluid .card .top-img {
   position: relative;
-  margin-bottom: 10px;
   min-height: 33px;
 }
-.container-fluid .article .top-img .category {
+.container-fluid .card .top-img .category {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -109,7 +103,7 @@ h2 {
   font-size: 17px;
   padding: 8px 15px;
 }
-.container-fluid .article .top-img .category a {
+.container-fluid .card .top-img .category a {
   color: #f72210;
 }
 
@@ -162,6 +156,8 @@ h2 {
 
 .decoration {
   position: relative;
+  display: flex;
+  justify-content: center;
   margin: 10px auto;
 }
 .decoration .vs {
@@ -175,7 +171,6 @@ h2 {
   font-size: 14px;
   text-align: center;
   padding-top: 8px;
-  left: 50%;
   z-index: 1;
 }
 
@@ -184,7 +179,6 @@ h2 {
   display: block;
   position: absolute;
   background-color: rgba(3, 3, 3, 0.4);
-  width: 100vw;
   height: 1px;
   left: 0;
   right: 0;
@@ -196,7 +190,6 @@ h2 {
   display: block;
   position: absolute;
   background-color: rgba(3, 3, 3, 0.4);
-  width: 100vw;
   height: 1px;
   left: 0;
   right: 0;
@@ -224,6 +217,18 @@ h2 {
 }
 
 .opinion::before {
+  content: "";
+  display: block;
+  border-top: #e2e2e2 1px solid;
+  background-color: #f4f5f6;
+  position: relative;
+  left: -15px;
+  width: 100vw;
+  height: 18px;
+  margin-bottom: 15px;
+}
+
+.categories-01:before {
   content: "";
   display: block;
   border-top: #e2e2e2 1px solid;
