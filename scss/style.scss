@@ -6,6 +6,7 @@ $black: #333;
 $soft-gray: #e2e2e2;
 $background-color: #f4f5f6;
 $blue: #3581f4; /* Mixins */
+
 @mixin block-separation {
 	content: "";
 	display: block;
@@ -17,6 +18,21 @@ $blue: #3581f4; /* Mixins */
 	height: 18px;
 	margin-bottom: 15px;
 }
+
+@mixin iconed-title {
+	.d-flex{
+		font-size: 19px;
+		text-transform: uppercase;
+		font-weight: bold;
+
+		img {
+			width: 29px;
+			height: 28px;
+			margin-right: 10px;
+		}
+	}
+}
+
 /* Global */
 
 * {
@@ -306,17 +322,8 @@ h2 {
 	max-width: 300px;
 	padding: 20px;
 
-	.d-flex{
-		font-size: 19px;
-		text-transform: uppercase;
-		font-weight: bold;
+	@include iconed-title;
 
-		img {
-			width: 29px;
-			height: 28px;
-			margin-right: 10px;
-		}
-	}
 
 	.form-control {
 		height: 32px;
@@ -340,6 +347,41 @@ h2 {
 
 .bottom {
 	background-color: #fff;
+
+	@include iconed-title;
+
+	.featured {
+
+		h4 {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		
+		.top-img {
+
+			position: static;
+
+			.category{
+				position: static;
+				display: inline-block;
+				background-color: $red;
+				
+				a {
+				color: #fff;
+				}
+			}
+
+			.category-02 {
+				font-size: 17px;
+				font-weight: bold;
+				text-transform: uppercase;
+				
+				a{
+					color: $red;
+				}
+			}
+		}
+	}
 }
 
 .see-all-features {
@@ -351,4 +393,8 @@ h2 {
 	font-size: 18px;
 	font-weight: bold;
 	padding: 10px;
+}
+
+.editors-pick:before {
+	@include block-separation;
 }
