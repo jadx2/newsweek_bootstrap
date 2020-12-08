@@ -5,9 +5,7 @@ $grey: rgba(3,3,3,.4);
 $black: #333;
 $soft-gray: #e2e2e2;
 $background-color: #f4f5f6;
-
-
-/* Mixins */
+$blue: #3581f4; /* Mixins */
 @mixin block-separation {
 	content: "";
 	display: block;
@@ -19,14 +17,13 @@ $background-color: #f4f5f6;
 	height: 18px;
 	margin-bottom: 15px;
 }
-
 /* Global */
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
 
 html {
 	font-size: 10px;
@@ -58,12 +55,12 @@ a {
 }
 
 h2 {
- font-size: 22px;
- line-height: 24px;
- font-weight: bold;
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: bold;
 }
-
 /* NavBar */
+
 .mobile {
 	position: fixed;
 	top: 0;
@@ -98,7 +95,7 @@ h2 {
 			font-weight: bold;
 			text-transform: uppercase;
 			width: 97px;
-			padding: 0px 12px;
+			padding: 0 12px;
 			margin: 0 10px;
 		}
 
@@ -107,35 +104,33 @@ h2 {
 		}
 	}
 }
-
 /* Main */
-
 .container-fluid {
 	max-width: 1310px;
 	background-color: #fff;
 
-			.card {
-				.top-img {
-					position: relative;
-					min-height: 33px;
+	.card {
+		.top-img {
+			position: relative;
+			min-height: 33px;
 
-					.category {
-						position: absolute;
-						bottom: 0;
-						left: 0;
-						z-index: 1;
-						background-color: rgba(255, 255, 255, 0.9);
-						text-transform: uppercase;
-						font-weight: bold;
-						font-size: 17px;
-						padding: 8px 15px;
+			.category {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				z-index: 1;
+				background-color: rgba(255, 255, 255, 0.9);
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 17px;
+				padding: 8px 15px;
 
-						a {
-						color: $red;
-						}
-					}
+				a {
+					color: $red;
 				}
+			}
 		}
+	}
 }
 
 .featured-stories::before {
@@ -146,7 +141,7 @@ h2 {
 	@include block-separation;
 }
 
-.debate{
+.debate {
 	position: relative;
 }
 
@@ -193,7 +188,7 @@ h2 {
 	}
 }
 
-.decoration::after{
+.decoration::after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -204,7 +199,7 @@ h2 {
 	top: 50%;
 }
 
-.decoration::before{
+.decoration::before {
 	content: "";
 	display: block;
 	position: absolute;
@@ -238,11 +233,122 @@ h2 {
 	}
 }
 
-.opinion::before{
+.opinion::before {
 	@include block-separation;
 }
 
-.categories-01:before{
+.categories-01:before {
 	@include block-separation;
 }
 
+.more-stories::before {
+	@include block-separation;
+}
+
+.square-pic {
+	img {
+		width: 95px;
+		height: 95px;
+		margin-right: 15px;
+	}
+
+	a {
+		font-weight: bold;
+		color: black;
+		font-size: 17px;
+	}
+}
+
+.my-turn::before {
+	@include block-separation;
+}
+
+.my-turn {
+	h2 {
+		a {
+			font-size: 16px;
+			color: $grey;
+		}
+	}
+
+	.card {
+		.top-img {
+			.category {
+				padding: 2px 5px;
+				background-color: #c2d4d7;
+
+				a {
+					color: $black;
+					font-size: 12px;
+					font-weight: bolder;
+				}
+			}
+		}
+	}
+}
+
+.categories-01,
+.categories-02 {
+	.card {
+		.top-img {
+			.category {
+				p {
+					color: $blue;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+.form {
+	background-color: $background-color;
+	max-width: 300px;
+	padding: 20px;
+
+	.d-flex{
+		font-size: 19px;
+		text-transform: uppercase;
+		font-weight: bold;
+
+		img {
+			width: 29px;
+			height: 28px;
+			margin-right: 10px;
+		}
+	}
+
+	.form-control {
+		height: 32px;
+		line-height: 32px;
+		font-size: 14px;
+	}
+
+	.btn {
+		background-color: $red;
+		color: #fff;
+		width: 100%;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
+
+.bottom::before {
+	@include block-separation;
+}
+
+.bottom {
+	background-color: #fff;
+}
+
+.see-all-features {
+	display: block;
+	width: 100%;
+	background-color: $background-color;
+	text-align: center;
+	color: $black;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+}
