@@ -112,7 +112,7 @@ li {
   background-color: #ffe400;
   border: none;
   border-radius: 24px;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
   width: 130px;
@@ -138,7 +138,7 @@ li {
   border-right: 1px solid #e2e2e2;
   line-height: 24px;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
 }
 .desktop .menu-02 li {
   padding: 0 10px;
@@ -539,8 +539,10 @@ li {
   margin-bottom: 15px;
 }
 
-.newsletter .card {
-  width: 100%;
+.newsletter .card-img {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-size: cover;
+  height: 200px;
 }
 .newsletter .input-group input {
   line-height: 30px;
@@ -664,6 +666,33 @@ footer .edition-links li {
 
   .us-news .card {
     width: 400px;
+  }
+
+  .bottom-row {
+    padding: 50px;
+  }
+
+  .subscribe-section .subscribe-box {
+    height: 345px;
+    align-items: center;
+  }
+
+  .newsletter .card-img {
+    background-position: center;
+    height: 345px;
+    width: 600px;
+  }
+  .newsletter .card-info .input-group .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .newsletter .card-info .input-group .btn {
+    height: 40px;
+  }
+
+  .footer {
+    border-top: 1px solid #e2e2e2;
+    padding: 0 30px;
   }
 }
 
