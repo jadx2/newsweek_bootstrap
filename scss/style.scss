@@ -143,6 +143,90 @@ li {
   }
 }
 
+.desktop {
+
+  .top-container {
+    background-color: $red;
+
+    .date {
+      color: #fff;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  .logo-container {
+    a {
+      display: inline-block;
+      width: 395px;
+      height: 60px;
+    }
+  }
+
+  .text-container {
+    h2 {
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .subscribe {
+      height: 32px;
+      letter-spacing: -1px;
+      background-color: #ffe400;
+      border: none;
+      border-radius: 24px;
+      font-size: 17px;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: 130px;
+      padding: 0 12px;
+      margin: 0 10px;
+    }
+  }
+
+  .menu-01{
+
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: "";
+      display: block;
+      background-color: $red;
+      border-left: 12px solid #fff;
+      border-top: 13px solid $red;
+      width: 100px;
+    }
+
+    li {
+      padding: 0 10px;
+      border-right: 1px solid $soft-gray;
+      line-height: 24px;
+      font-weight: bold;
+      font-size: 17px;
+    }
+  }
+
+  .menu-02{
+
+    li {
+      padding: 0 10px;
+      line-height: 24px;
+      font-weight: bold;
+      font-size: 17px;
+      text-transform: uppercase;
+
+      a {
+        color: $grey;
+      }
+    }
+  }
+}
 /* Main */
 
 .container-fluid {
@@ -608,5 +692,22 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: end;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .in-the-magazine,
+  .editors-pick {
+    .card {
+      width: 300px;
+    }
+  }
+
+  .us-news {
+    
+    .card {
+      width: 400px;
+    }
   }
 }

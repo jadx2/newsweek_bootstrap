@@ -22,8 +22,8 @@
 
   <body>
     <!-- Header -->
-    <header class="header">
-      <nav class="mobile">
+    <header class="header container-fluid p-0">
+      <nav class="mobile d-lg-none">
         <a class="logo" href="#"
           ><img
             src="https://images.squarespace-cdn.com/content/v1/5a32d381692ebe22a83e4d78/1513562212001-5XBBJ0O6UWIFE1CAYS1A/ke17ZwdGBToddI8pDm48kDR1cHEV4PDIng9XpMgB5lQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dtPLwAgLFa81C5CRc0ztJ7KrcxTDK4eqnQ4QO8XmcH18CjLISwBs8eEdxAxTptZAUg/NewsweekLogo.png"
@@ -37,7 +37,52 @@
           <i class="fas fa-bars"></i>
         </div>
       </nav>
-      <nav class="desktop"></nav>
+      <nav class="desktop d-none d-lg-block">
+        <div class="top-container d-flex justify-content-between p-3">
+          <div class="date d-flex justify-content-center flex-column mt-4 ms-4">
+            <div class="d-flex">
+              <i class="fas fa-cloud-sun pe-3"></i>
+              <h4><a href="#">28° Caucaia, BR &gt;</a></h4>
+            </div>
+            <p>Wed, Dec 09, 2020</p>
+          </div>
+          <div class="logo-container pb-4">
+            <a class="logo-desktop" href="#"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5a32d381692ebe22a83e4d78/1513562212001-5XBBJ0O6UWIFE1CAYS1A/ke17ZwdGBToddI8pDm48kDR1cHEV4PDIng9XpMgB5lQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dtPLwAgLFa81C5CRc0ztJ7KrcxTDK4eqnQ4QO8XmcH18CjLISwBs8eEdxAxTptZAUg/NewsweekLogo.png"
+                alt="Newsweek logo"
+            /></a>
+          </div>
+          <div class="text-container align-items-center d-flex mt-4">
+            <h2 class="me-4">LOGIN</h2>
+            <button class="subscribe btn" type="button" name="button">
+              Subscribe &gt;
+            </button>
+          </div>
+        </div>
+          <ul class="menu-01 d-flex py-4 mb-0">
+            <li><a href="">U.S.</a></li>
+            <li><a href="">World</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">Tech &amp; Science</a></li>
+            <li><a href="">Culture</a></li>
+            <li><a href="">Newsgeek</a></li>
+            <li><a href="">Sports</a></li>
+            <li><a href="">Health</a></li>
+            <li><a href="">The Debate</a></li>
+            <li><a href="">Vantage</a></li>
+            <li><a href="">Weather</a></li>
+            <li class="border-0"><input class="border-0 rounded w-50" type="text" placeholder="Search"><i class="fas fa-search ms-2"></i></li>
+          </ul>
+          <ul class="menu-02 d-flex border-top py-3">
+            <li><a href="">Trending</a></li>
+            <li><a href="">Joe Biden</a></li>
+            <li><a href="">Donald Trump</a></li>
+            <li><a href="">2020 election</a></li>
+            <li><a href="">Coronavirus</a></li>
+            <li><a href="">Stimulus Package</a></li>
+          </ul>
+      </nav>
     </header>
 
     <main>
@@ -1147,7 +1192,7 @@
       <div class="bottom container-fluid px-4">
         <section class="in-the-magazine">
           <div
-            class="format d-flex justify-content-center align-items-center my-4"
+            class="format d-flex justify-content-center align-items-center mb-4"
           >
             <img
               src="https://image.winudf.com/v2/image1/Y29tLm5ld3N3ZWVrLmFuZHJvaWRhcHBfaWNvbl8xNTY3MDEwMjM2XzA2Ng/icon.png?w=170&fakeurl=1
@@ -1545,7 +1590,7 @@
             <div class="d-sm-flex">
               <div class="card border-0">
                 <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
                   class="card-img-top"
                   alt="..."
                 />
@@ -1560,85 +1605,7 @@
               </div>
               <div class="card border-0">
                 <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h2 class="card-title">
-                    <a href="#"
-                      >'I'm 23, I Had a Mini Stroke Days After Contracting
-                      COVID'</a
-                    >
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <ul class="list-group list-group-flush mt-0">
-              <li class="square-pic d-flex list-group-item pt-4">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
-                    alt=""
-                /></a>
-                <div>
-                  <a class="py-5" href="#"
-                    >COVID Could Infect Over a Million Americans Per Day by
-                    Early January</a
-                  >
-                </div>
-              </li>
-              <li class="square-pic d-flex list-group-item pt-4">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
-                    alt=""
-                /></a>
-                <div>
-                  <a class="py-5" href="#"
-                    >COVID Could Infect Over a Million Americans Per Day by
-                    Early January</a
-                  >
-                </div>
-              </li>
-              <li class="square-pic d-flex list-group-item pt-4">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
-                    alt=""
-                /></a>
-                <div>
-                  <a class="py-5" href="#"
-                    >COVID Could Infect Over a Million Americans Per Day by
-                    Early January</a
-                  >
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="us-news">
-          <h3 class="bottom-title my-3">U.S.</h3>
-          <div class="d-sm-flex justify-content-between">
-            <div class="d-sm-flex">
-              <div class="card border-0">
-                <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h2 class="card-title">
-                    <a href="#"
-                      >'I'm 23, I Had a Mini Stroke Days After Contracting
-                      COVID'</a
-                    >
-                  </h2>
-                </div>
-              </div>
-              <div class="card border-0">
-                <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
                   class="card-img-top"
                   alt="..."
                 />
@@ -1701,7 +1668,7 @@
             <div class="d-sm-flex">
               <div class="card border-0">
                 <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
                   class="card-img-top"
                   alt="..."
                 />
@@ -1716,85 +1683,7 @@
               </div>
               <div class="card border-0">
                 <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h2 class="card-title">
-                    <a href="#"
-                      >'I'm 23, I Had a Mini Stroke Days After Contracting
-                      COVID'</a
-                    >
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <ul class="list-group list-group-flush mt-0">
-              <li class="square-pic d-flex list-group-item pt-4">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
-                    alt=""
-                /></a>
-                <div>
-                  <a class="py-5" href="#"
-                    >COVID Could Infect Over a Million Americans Per Day by
-                    Early January</a
-                  >
-                </div>
-              </li>
-              <li class="square-pic d-flex list-group-item pt-4">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
-                    alt=""
-                /></a>
-                <div>
-                  <a class="py-5" href="#"
-                    >COVID Could Infect Over a Million Americans Per Day by
-                    Early January</a
-                  >
-                </div>
-              </li>
-              <li class="square-pic d-flex list-group-item pt-4">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
-                    alt=""
-                /></a>
-                <div>
-                  <a class="py-5" href="#"
-                    >COVID Could Infect Over a Million Americans Per Day by
-                    Early January</a
-                  >
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="us-news">
-          <h3 class="bottom-title my-3">U.S.</h3>
-          <div class="d-sm-flex justify-content-between">
-            <div class="d-sm-flex">
-              <div class="card border-0">
-                <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h2 class="card-title">
-                    <a href="#"
-                      >'I'm 23, I Had a Mini Stroke Days After Contracting
-                      COVID'</a
-                    >
-                  </h2>
-                </div>
-              </div>
-              <div class="card border-0">
-                <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
                   class="card-img-top"
                   alt="..."
                 />
@@ -1857,7 +1746,7 @@
             <div class="d-sm-flex">
               <div class="card border-0">
                 <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
                   class="card-img-top"
                   alt="..."
                 />
@@ -1872,7 +1761,7 @@
               </div>
               <div class="card border-0">
                 <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
                   class="card-img-top"
                   alt="..."
                 />
@@ -1935,7 +1824,7 @@
             <div class="d-sm-flex">
               <div class="card border-0">
                 <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
                   class="card-img-top"
                   alt="..."
                 />
@@ -1950,7 +1839,163 @@
               </div>
               <div class="card border-0">
                 <img
-                  src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h2 class="card-title">
+                    <a href="#"
+                      >'I'm 23, I Had a Mini Stroke Days After Contracting
+                      COVID'</a
+                    >
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush mt-0">
+              <li class="square-pic d-flex list-group-item pt-4">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt=""
+                /></a>
+                <div>
+                  <a class="py-5" href="#"
+                    >COVID Could Infect Over a Million Americans Per Day by
+                    Early January</a
+                  >
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-4">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt=""
+                /></a>
+                <div>
+                  <a class="py-5" href="#"
+                    >COVID Could Infect Over a Million Americans Per Day by
+                    Early January</a
+                  >
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-4">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt=""
+                /></a>
+                <div>
+                  <a class="py-5" href="#"
+                    >COVID Could Infect Over a Million Americans Per Day by
+                    Early January</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="us-news">
+          <h3 class="bottom-title my-3">U.S.</h3>
+          <div class="d-sm-flex justify-content-between">
+            <div class="d-sm-flex">
+              <div class="card border-0">
+                <img
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h2 class="card-title">
+                    <a href="#"
+                      >'I'm 23, I Had a Mini Stroke Days After Contracting
+                      COVID'</a
+                    >
+                  </h2>
+                </div>
+              </div>
+              <div class="card border-0">
+                <img
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h2 class="card-title">
+                    <a href="#"
+                      >'I'm 23, I Had a Mini Stroke Days After Contracting
+                      COVID'</a
+                    >
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush mt-0">
+              <li class="square-pic d-flex list-group-item pt-4">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt=""
+                /></a>
+                <div>
+                  <a class="py-5" href="#"
+                    >COVID Could Infect Over a Million Americans Per Day by
+                    Early January</a
+                  >
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-4">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt=""
+                /></a>
+                <div>
+                  <a class="py-5" href="#"
+                    >COVID Could Infect Over a Million Americans Per Day by
+                    Early January</a
+                  >
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-4">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt=""
+                /></a>
+                <div>
+                  <a class="py-5" href="#"
+                    >COVID Could Infect Over a Million Americans Per Day by
+                    Early January</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="us-news">
+          <h3 class="bottom-title my-3">U.S.</h3>
+          <div class="d-sm-flex justify-content-between">
+            <div class="d-sm-flex">
+              <div class="card border-0">
+                <img
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h2 class="card-title">
+                    <a href="#"
+                      >'I'm 23, I Had a Mini Stroke Days After Contracting
+                      COVID'</a
+                    >
+                  </h2>
+                </div>
+              </div>
+              <div class="card border-0">
+                <img
+                  src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
                   class="card-img-top"
                   alt="..."
                 />

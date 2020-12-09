@@ -87,6 +87,70 @@ li {
   font-size: 18px;
 }
 
+.desktop .top-container {
+  background-color: #f72210;
+}
+.desktop .top-container .date {
+  color: #fff;
+}
+.desktop .top-container .date a {
+  color: #fff;
+}
+.desktop .logo-container a {
+  display: inline-block;
+  width: 395px;
+  height: 60px;
+}
+.desktop .text-container h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.desktop .text-container .subscribe {
+  height: 32px;
+  letter-spacing: -1px;
+  background-color: #ffe400;
+  border: none;
+  border-radius: 24px;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 130px;
+  padding: 0 12px;
+  margin: 0 10px;
+}
+.desktop .menu-01 {
+  position: relative;
+}
+.desktop .menu-01::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+  width: 100px;
+}
+.desktop .menu-01 li {
+  padding: 0 10px;
+  border-right: 1px solid #e2e2e2;
+  line-height: 24px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.desktop .menu-02 li {
+  padding: 0 10px;
+  line-height: 24px;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.desktop .menu-02 li a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
 /* Main */
 .container-fluid {
   max-width: 1310px;
@@ -590,6 +654,16 @@ footer .edition-links li {
     display: flex;
     justify-content: space-between;
     align-items: end;
+  }
+}
+@media (min-width: 1024px) {
+  .in-the-magazine .card,
+.editors-pick .card {
+    width: 300px;
+  }
+
+  .us-news .card {
+    width: 400px;
   }
 }
 
