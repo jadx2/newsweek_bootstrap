@@ -47,6 +47,20 @@ li {
 }
 
 /* NavBar */
+.my-turn h2 a {
+  font-size: 16px;
+  color: rgba(3, 3, 3, 0.4);
+}
+.my-turn .card .top-img .category {
+  padding: 2px 5px;
+  background-color: #c2d4d7;
+}
+.my-turn .card .top-img .category a {
+  color: #333;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
 .mobile {
   position: fixed;
   top: 0;
@@ -63,6 +77,24 @@ li {
   display: inline-block;
   width: 132px;
   height: 26px;
+}
+.mobile .text-container h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.mobile .text-container .subscribe {
+  height: 32px;
+  letter-spacing: -1px;
+  background-color: #ffe400;
+  border: none;
+  border-radius: 24px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 130px;
+  padding: 0 12px;
+  margin: 0 10px;
 }
 .mobile .nav-right {
   color: rgba(255, 255, 255, 0.75);
@@ -87,42 +119,65 @@ li {
   font-size: 18px;
 }
 
-.desktop .top-container {
-  background-color: #f72210;
-}
-.desktop .top-container .date {
-  color: #fff;
-}
-.desktop .top-container .date a {
-  color: #fff;
-}
-.desktop .logo-container a {
+.logo-container a {
   display: inline-block;
   width: 395px;
   height: 60px;
 }
-.desktop .text-container h2 {
-  color: #fff;
+
+.rounded-pic {
+  display: flex;
+  align-items: center;
+}
+.rounded-pic img {
+  width: 63px;
+  height: 63px;
+  margin-right: 15px;
+}
+.rounded-pic a {
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+}
+.rounded-pic p {
+  font-weight: bold;
   font-size: 14px;
-  font-weight: bold;
 }
-.desktop .text-container .subscribe {
-  height: 32px;
-  letter-spacing: -1px;
-  background-color: #ffe400;
-  border: none;
-  border-radius: 24px;
-  font-size: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  width: 130px;
-  padding: 0 12px;
-  margin: 0 10px;
+
+.rounded-pic-left {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
-.desktop .menu-01 {
+.rounded-pic-left img {
+  width: 63px;
+  height: 63px;
+  margin-left: 15px;
+}
+.rounded-pic-left a {
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+}
+.rounded-pic-left p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.top-container {
+  background-color: #f72210;
+}
+.top-container .date {
+  color: #fff;
+}
+.top-container .date a {
+  color: #fff;
+}
+
+.menu-01 {
   position: relative;
 }
-.desktop .menu-01::before {
+.menu-01::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -133,13 +188,14 @@ li {
   border-top: 13px solid #f72210;
   width: 100px;
 }
-.desktop .menu-01 li {
+.menu-01 li {
   padding: 0 10px;
   border-right: 1px solid #e2e2e2;
   line-height: 24px;
   font-weight: bold;
   font-size: 15px;
 }
+
 .desktop .menu-02 li {
   padding: 0 10px;
   line-height: 24px;
@@ -203,25 +259,6 @@ li {
   position: relative;
 }
 
-.rounded-pic {
-  display: flex;
-  align-items: center;
-}
-.rounded-pic img {
-  width: 63px;
-  height: 63px;
-  margin-right: 15px;
-}
-.rounded-pic a {
-  font-weight: bold;
-  color: black;
-  font-size: 17px;
-}
-.rounded-pic p {
-  font-weight: bold;
-  font-size: 14px;
-}
-
 .decoration {
   position: relative;
   display: flex;
@@ -262,26 +299,6 @@ li {
   left: 0;
   right: 0;
   top: calc(50% - 2px);
-}
-
-.rounded-pic-left {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-.rounded-pic-left img {
-  width: 63px;
-  height: 63px;
-  margin-left: 15px;
-}
-.rounded-pic-left a {
-  font-weight: bold;
-  color: black;
-  font-size: 17px;
-}
-.rounded-pic-left p {
-  font-weight: bold;
-  font-size: 14px;
 }
 
 .opinion::before {
@@ -341,20 +358,6 @@ li {
   width: 100vw;
   height: 18px;
   margin-bottom: 15px;
-}
-
-.my-turn h2 a {
-  font-size: 16px;
-  color: rgba(3, 3, 3, 0.4);
-}
-.my-turn .card .top-img .category {
-  padding: 2px 5px;
-  background-color: #c2d4d7;
-}
-.my-turn .card .top-img .category a {
-  color: #333;
-  font-size: 12px;
-  font-weight: bolder;
 }
 
 .categories-01 .card .top-img .category p,
