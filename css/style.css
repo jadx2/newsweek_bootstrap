@@ -328,7 +328,7 @@ li {
   text-transform: uppercase;
 }
 
-.bottom::before {
+.in-the-magazine::before {
   content: "";
   display: block;
   border-top: #e2e2e2 1px solid;
@@ -388,7 +388,7 @@ li {
   padding: 10px;
 }
 
-.editors-pick:before {
+.editors-pick::before {
   content: "";
   display: block;
   border-top: #e2e2e2 1px solid;
@@ -431,7 +431,7 @@ li {
   left: 80px;
 }
 
-.subscribe-section:before {
+.subscribe-section::before {
   content: "";
   display: block;
   border-top: #e2e2e2 1px solid;
@@ -463,7 +463,7 @@ li {
   text-transform: uppercase;
 }
 
-.newsletter:before {
+.newsletter::before {
   content: "";
   display: block;
   border-top: #e2e2e2 1px solid;
@@ -534,9 +534,10 @@ footer .edition-links li {
 .categories-01::before,
 .more-stories::before,
 .my-turn::before,
-.subscribe-section:before,
-.newsletter:before,
-.bottom::before,
+.editors-pick::before,
+.subscribe-section::before,
+.newsletter::before,
+.in-the-magazine::before,
 .footer::before {
     display: none;
   }

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 		"sass": "sass --watch scss/style.scss css/style.css",
-		"stylelint": "npx stylelint '**/*.{css,scss}'"
+		"stylelint": "npx stylelint '**/*.scss'"
   },
   "repository": {
     "type": "git",
