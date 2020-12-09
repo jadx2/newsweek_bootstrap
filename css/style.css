@@ -232,7 +232,7 @@ li {
   margin-bottom: 15px;
 }
 
-.categories-01:before {
+.categories-01::before {
   content: "";
   display: block;
   border-top: #e2e2e2 1px solid;
@@ -524,6 +524,72 @@ footer .edition-links {
 }
 footer .edition-links li {
   margin: 6px 20px 6px 0;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .featured-stories::before,
+.debate::before,
+.opinion::before,
+.categories-01::before,
+.more-stories::before,
+.my-turn::before,
+.subscribe-section:before,
+.newsletter:before,
+.bottom::before,
+.footer::before {
+    display: none;
+  }
+
+  .featured-stories .block-title,
+.debate .block-title {
+    margin-top: 1rem;
+  }
+
+  .my-turn .card {
+    padding: 0 10px;
+  }
+  .my-turn .card h2 {
+    line-height: 16px;
+  }
+
+  .categories-02 .card {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .in-the-magazine .format,
+.editors-pick .format {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 8px;
+  }
+
+  .in-the-magazine .card {
+    width: 160px;
+  }
+
+  .editors-pick .card {
+    max-width: 340px;
+  }
+
+  .us-news .bottom-title {
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e2e2;
+  }
+  .us-news .card {
+    margin: 1.5rem 10px 0 0;
+  }
+
+  .subscribe-section .info-text {
+    max-width: 390px;
+    text-align: left !important;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
