@@ -3,6 +3,7 @@ $black: #333;
 $background-color: #f4f5f6;
 $soft-gray: #e2e2e2;
 $gray: #d9d9d9;
+
 /* Mixins */
 @mixin block-separation {
   content: "";
@@ -15,6 +16,7 @@ $gray: #d9d9d9;
   height: 18px;
   margin-bottom: 15px;
 }
+
 /* Global */
 * {
   margin: 0;
@@ -38,6 +40,7 @@ a {
 .subscribe-section::before {
   @include block-separation;
 }
+
 /* NavBar */
 
 .nav-before {
@@ -55,6 +58,7 @@ a {
     width: 100px;
   }
 }
+
 /* Main */
 .container-fluid {
   max-width: 1310px;
@@ -118,6 +122,7 @@ a {
   background-position: center;
   height: 200px;
 }
+
 /* Media Queries */
 @media (min-width: 768px) {
   .categories-01::before,
@@ -142,6 +147,7 @@ a {
     height: 300px;
   }
 }
+
 @media (min-width: 1024px) {
   .newsletter {
     .bg-img {
