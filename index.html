@@ -15,24 +15,29 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="scss/style.css" />
     <title>Newsweek</title>
   </head>
   <!-- Body -->
 
   <body>
     <!-- Header -->
-    <header class="header container-fluid p-0">
-      <nav class="mobile d-lg-none">
-        <a class="logo" href="#"
+    <header class="container-fluid p-0">
+      <nav class="p-2 bg-danger d-flex align-items-center d-lg-none">
+        <a href="#"
           ><img
+            class="w-75"
             src="https://images.squarespace-cdn.com/content/v1/5a32d381692ebe22a83e4d78/1513562212001-5XBBJ0O6UWIFE1CAYS1A/ke17ZwdGBToddI8pDm48kDR1cHEV4PDIng9XpMgB5lQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dtPLwAgLFa81C5CRc0ztJ7KrcxTDK4eqnQ4QO8XmcH18CjLISwBs8eEdxAxTptZAUg/NewsweekLogo.png"
             alt="Newsweek logo"
         /></a>
-        <div class="nav-right">
+        <div class="d-flex align-items-center text-light fs-5">
           <i class="fas fa-user"></i>
-          <button class="subscribe btn" type="button" name="button">
-            Subscribe &gt;
+          <button
+            class="btn bg-warning rounded-pill fw-bold py-0 mx-3"
+            type="button"
+            name="button"
+          >
+            Subscribe
           </button>
           <i class="fas fa-bars"></i>
         </div>
@@ -92,14 +97,14 @@
     </header>
 
     <main>
-      <div class="top mt-5 pt-5 px-4 container-fluid">
+      <div class="pt-3 px-4 container-fluid">
         <div class="row">
           <!-- First Main Column -->
           <div class="col-lg-3 col-md-5">
             <section class="featured-stories w-100 col-md-5">
-              <h3 class="block-title mb-3">FEATURED STORIES</h3>
+              <h3 class="text-muted fs-6 fw-bold mb-3">FEATURED STORIES</h3>
               <article class="card mb-4 border-0">
-                <div class="top-img mb-3">
+                <div class="position-relative mb-3">
                   <a href="#">
                     <img
                       class="card-img-top"
@@ -107,24 +112,26 @@
                       alt=""
                     />
                   </a>
-                  <div class="category">
-                    <a href="#">Politics</a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
                   </div>
                 </div>
                 <h2 class="card-title">
-                  <a href="#"
+                  <a class="text-dark fw-bold lh-sm" href="#"
                     >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
                     Jobs Data</a
                   >
                 </h2>
-                <p class="card-text">
+                <p class="card-text lh-sm">
                   Lawmakers from both parties stressed the need to pass a
                   stimulus bill by the end of the year as Congress considers a
                   $900 billion bipartisan proposal that does not include checks.
                 </p>
               </article>
               <article class="card mb-4 border-0">
-                <div class="top-img mb-3">
+                <div class="position-relative mb-3">
                   <a href="#">
                     <img
                       class="card-img-top"
@@ -132,24 +139,26 @@
                       alt=""
                     />
                   </a>
-                  <div class="category">
-                    <a href="#">Politics</a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
                   </div>
                 </div>
                 <h2 class="card-title">
-                  <a href="#"
+                  <a class="text-dark fw-bold lh-sm" href="#"
                     >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
                     Jobs Data</a
                   >
                 </h2>
-                <p class="card-text">
+                <p class="card-text lh-sm">
                   Lawmakers from both parties stressed the need to pass a
                   stimulus bill by the end of the year as Congress considers a
                   $900 billion bipartisan proposal that does not include checks.
                 </p>
               </article>
               <article class="card mb-4 border-0">
-                <div class="top-img mb-3">
+                <div class="position-relative mb-3">
                   <a href="#">
                     <img
                       class="card-img-top"
@@ -157,24 +166,26 @@
                       alt=""
                     />
                   </a>
-                  <div class="category">
-                    <a href="#">Politics</a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
                   </div>
                 </div>
                 <h2 class="card-title">
-                  <a href="#"
+                  <a class="text-dark fw-bold lh-sm" href="#"
                     >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
                     Jobs Data</a
                   >
                 </h2>
-                <p class="card-text">
+                <p class="card-text lh-sm">
                   Lawmakers from both parties stressed the need to pass a
                   stimulus bill by the end of the year as Congress considers a
                   $900 billion bipartisan proposal that does not include checks.
                 </p>
               </article>
               <article class="card mb-4 border-0">
-                <div class="top-img mb-3">
+                <div class="position-relative mb-3">
                   <a href="#">
                     <img
                       class="card-img-top"
@@ -182,24 +193,26 @@
                       alt=""
                     />
                   </a>
-                  <div class="category">
-                    <a href="#">Politics</a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
                   </div>
                 </div>
                 <h2 class="card-title">
-                  <a href="#"
+                  <a class="text-dark fw-bold lh-sm" href="#"
                     >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
                     Jobs Data</a
                   >
                 </h2>
-                <p class="card-text">
+                <p class="card-text lh-sm">
                   Lawmakers from both parties stressed the need to pass a
                   stimulus bill by the end of the year as Congress considers a
                   $900 billion bipartisan proposal that does not include checks.
                 </p>
               </article>
               <article class="card mb-4 border-0">
-                <div class="top-img mb-3">
+                <div class="position-relative mb-3">
                   <a href="#">
                     <img
                       class="card-img-top"
@@ -207,17 +220,19 @@
                       alt=""
                     />
                   </a>
-                  <div class="category">
-                    <a href="#">Politics</a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
                   </div>
                 </div>
                 <h2 class="card-title">
-                  <a href="#"
+                  <a class="text-dark fw-bold lh-sm" href="#"
                     >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
                     Jobs Data</a
                   >
                 </h2>
-                <p class="card-text">
+                <p class="card-text lh-sm">
                   Lawmakers from both parties stressed the need to pass a
                   stimulus bill by the end of the year as Congress considers a
                   $900 billion bipartisan proposal that does not include checks.

@@ -1,18 +1,4 @@
-@import "variable";
 /* Mixins */
-
-@mixin block-separation {
-  content: "";
-  display: $display;
-  border-top: $soft-gray 1px solid;
-  background-color: $background-color;
-  position: relative;
-  left: -15px;
-  width: 100vw;
-  height: 18px;
-  margin-bottom: 15px;
-}
-
 /*@mixin iconed-title {
   .format {
     font-size: 19px;
@@ -42,9 +28,7 @@
     }
   }
 } */
-
 /* Global */
-
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +36,7 @@
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /*html {
@@ -95,7 +79,6 @@ li {
 }
 
 /* NavBar */
-
 /*.my-turn {
   h2 {
     a {
@@ -227,7 +210,6 @@ li {
 }
 
 /* Main */
-
 /*.container-fluid {
   max-width: 1310px;
   background-color: #fff;
@@ -542,7 +524,6 @@ footer {
 }
 
 /* Media Queries */
-
 /*@media (min-width: 768px) {
   .featured-stories::before,
   .debate::before,
@@ -658,7 +639,7 @@ footer {
       height: 345px;
       width: 600px;
     }
-    
+
     .card-info {
       .input-group {
         .form-control {
@@ -678,3 +659,5 @@ footer {
     padding: 0 30px;
   }
 }*/
+
+/*# sourceMappingURL=style.css.map */
