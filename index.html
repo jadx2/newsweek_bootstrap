@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="scss/style.css" />
     <title>Newsweek</title>
   </head>
-  <body>
+  <body class="bg-light">
     <!-- Header -->
-    <header class="container-fluid p-0">
+    <header class="container-fluid bg-white p-0">
       <nav class="p-2 bg-danger d-flex align-items-center d-lg-none">
         <a href="#"
           ><img
@@ -38,42 +38,43 @@
           <i class="fas fa-bars"></i>
         </div>
       </nav>
-      <nav class="desktop d-none d-lg-block">
-        <div class="top-container d-flex justify-content-between p-3">
-          <div class="date d-flex justify-content-center flex-column mt-4 ms-4">
+      <nav class="d-none d-lg-block">
+        <div class="bg-danger d-flex justify-content-between align-items-center p-3">
+          <div class="text-white d-flex justify-content-center flex-column">
             <div class="d-flex">
               <i class="fas fa-cloud-sun pe-3"></i>
-              <h4><a href="#">28° Caucaia, BR &gt;</a></h4>
+              <h4 class="fs-4 mb-0"><a class="text-white" href="#">28° Caucaia, BR</a></h4>
             </div>
-            <p>Wed, Dec 09, 2020</p>
+            <p class="mb-0">Wed, Dec 09, 2020</p>
           </div>
-          <div class="logo-container pb-4">
-            <a class="logo-desktop" href="#"
+          <div class="text-center">
+            <a href="#"
               ><img
+								class="w-50"
                 src="https://images.squarespace-cdn.com/content/v1/5a32d381692ebe22a83e4d78/1513562212001-5XBBJ0O6UWIFE1CAYS1A/ke17ZwdGBToddI8pDm48kDR1cHEV4PDIng9XpMgB5lQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dtPLwAgLFa81C5CRc0ztJ7KrcxTDK4eqnQ4QO8XmcH18CjLISwBs8eEdxAxTptZAUg/NewsweekLogo.png"
                 alt="Newsweek logo"
             /></a>
           </div>
-          <div class="text-container align-items-center d-flex mt-4">
-            <h2 class="me-4">LOGIN</h2>
-            <button class="subscribe btn" type="button" name="button">
-              Subscribe &gt;
+          <div class="text-container d-flex align-items-center">
+            <h2 class="me-4 text-white fs-5 mb-0 fw-bold">LOGIN</h2>
+            <button class="subscribe btn btn-warning rounded-pill fs-5 px-4 py-0 text-uppercase fw-bold" type="button" name="button">
+              Subscribe
             </button>
           </div>
         </div>
-        <ul class="menu-01 d-flex py-4 mb-0">
-          <li><a href="#">U.S.</a></li>
-          <li><a href="#">World</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Tech &amp; Science</a></li>
-          <li><a href="#">Culture</a></li>
-          <li><a href="#">Newsgeek</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">Health</a></li>
-          <li><a href="#">The Debate</a></li>
-          <li><a href="#">Vantage</a></li>
-          <li><a href="#">Weather</a></li>
-          <li class="border-0">
+        <ul class="list-unstyled fw-bold fs-5 d-flex py-2 mb-0">
+          <li class="px-2 border-end"><a class="text-dark" href="#">U.S.</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">World</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">Business</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">Tech &amp; Science</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">Culture</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">Newsgeek</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">Sports</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">Health</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">The Debate</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">Vantage</a></li>
+          <li class="px-2 border-end"><a class="text-dark" href="#">Weather</a></li>
+          <li class="border-0 px-2">
             <input
               class="border-0 rounded w-50"
               type="text"
@@ -81,19 +82,18 @@
             /><i class="fas fa-search ms-2"></i>
           </li>
         </ul>
-        <ul class="menu-02 d-flex border-top py-3">
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Joe Biden</a></li>
-          <li><a href="#">Donald Trump</a></li>
-          <li><a href="#">2020 election</a></li>
-          <li><a href="#">Coronavirus</a></li>
-          <li><a href="#">Stimulus Package</a></li>
+        <ul class="list-unstyled mb-2 fw-bold fs-6 text-uppercase d-flex border-top border-bottom py-2 ps-3">
+          <li class="px-2"><a class="text-dark" href="#">Trending</a></li>
+          <li class="px-2"><a class="text-muted" href="#">Joe Biden</a></li>
+          <li class="px-2"><a class="text-muted" href="#">Donald Trump</a></li>
+          <li class="px-2"><a class="text-muted" href="#">2020 election</a></li>
+          <li class="px-2"><a class="text-muted" href="#">Coronavirus</a></li>
+          <li class="px-2"><a class="text-muted" href="#">Stimulus Package</a></li>
         </ul>
       </nav>
     </header>
-
     <main>
-      <div class="pt-3 px-4 container-fluid">
+      <div class="pt-3 px-4 container-fluid bg-white">
         <div class="row">
           <!-- First Main Column -->
           <div class="col-lg-3 col-md-5">
@@ -1352,7 +1352,7 @@
           </div>
         </div>
       </div>
-      <div class="bottom container-fluid px-4">
+      <div class="bottom container-fluid bg-white px-4">
         <section class="in-the-magazine d-flex flex-wrap justify-content-center">
           <div class="d-flex align-items-center justify-content-center mb-4 fw-bold fs-3 lh-1">
             <img class="format-img w-25"
@@ -2353,8 +2353,7 @@
         </div>
       </div>
     </main>
-
-    <footer class="container-fluid">
+    <footer class="container-fluid bg-white">
       <section class="d-flex flex-wrap flex-md-nowrap align-items-end pt-5">
         <div class="d-flex flex-wrap flex-md-nowrap align-items-end">
           <a class="w-50 mb-md-2" href="#"
@@ -2404,6 +2403,5 @@
         <li><a class="text-secondary pe-2" href="#">Announcements</a></li>
       </ul>
     </footer>
-    <!-- Bootstrap JS -->
   </body>
 </html>
