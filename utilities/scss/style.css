@@ -11,16 +11,16 @@ a {
   text-decoration: none;
 }
 
-.debate::before,
-.opinion::before,
 .categories-01::before,
+.debate::before,
+.editors-pick::before,
+.footer::before,
+.in-the-magazine::before,
 .more-stories::before,
 .my-turn::before,
-.editors-pick::before,
-.subscribe-section::before,
 .newsletter::before,
-.in-the-magazine::before,
-.footer::before {
+.opinion::before,
+.subscribe-section::before {
   content: "";
   display: block;
   border-top: #e2e2e2 1px solid;
@@ -113,16 +113,16 @@ a {
 
 /* Media Queries */
 @media (min-width: 768px) {
-  .debate::before,
-.opinion::before,
-.categories-01::before,
+  .categories-01::before,
+.debate::before,
+.editors-pick::before,
+.footer::before,
+.in-the-magazine::before,
 .more-stories::before,
 .my-turn::before,
-.editors-pick::before,
-.subscribe-section::before,
 .newsletter::before,
-.in-the-magazine::before,
-.footer::before {
+.opinion::before,
+.subscribe-section::before {
     display: none;
   }
 
