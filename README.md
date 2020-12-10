@@ -4,7 +4,7 @@
 
 > HTML & CSS 2.0 - Project 3: Using Bootstrap
 
-![screenshot](./assets/Screenshot-Newsweek.jpg)
+![screenshot](utilities/assets/Screenshot-Newsweek.jpg)
 
 This is a project in Microverse's HTML and CSS module. It consists of a reproduction of [Newsweek](https://www.newsweek.com/) homepage using Boostrap and the preprocessor SASS. We used Responsive Web Design techniques to style the page according to the device is being used. It has 2 breakpoints being style for Mobile Screens, Tablet Screens and Desktop Screens. We also used grid and flexbox techniques so the elements within the page would ajust to changes in the viewport size.
 
@@ -19,7 +19,6 @@ This is a project in Microverse's HTML and CSS module. It consists of a reproduc
 
 [HTML & CSS 2.0 - Project 3: Using Bootstrap](https://jaimdedan.github.io/newsweek_bootstrap/)
 
-
 ## Getting Started
 
 Visit the live version on the link above.
@@ -27,7 +26,6 @@ Visit the live version on the link above.
 To get a local copy up and running follow these simple example steps:
 
 - Download the .zip file to your machine, extract everything and open the index.html file in your browser.
-
 
 ## Authors
 
