@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0e87feccf7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="utilities/scss/style.css" />
+    <title>Newsweek</title>
+  </head>
+
+  <body class="bg-light">
+    <!-- Header -->
+    <header class="container-fluid bg-white p-0">
+      <nav class="p-2 bg-danger d-flex align-items-center d-lg-none">
+        <a href="#"
+          ><img
+            class="w-75"
+            src="https://images.squarespace-cdn.com/content/v1/5a32d381692ebe22a83e4d78/1513562212001-5XBBJ0O6UWIFE1CAYS1A/ke17ZwdGBToddI8pDm48kDR1cHEV4PDIng9XpMgB5lQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dtPLwAgLFa81C5CRc0ztJ7KrcxTDK4eqnQ4QO8XmcH18CjLISwBs8eEdxAxTptZAUg/NewsweekLogo.png"
+            alt="Newsweek logo"
+        /></a>
+        <div class="d-flex align-items-center text-light fs-5">
+          <i class="fas fa-user"></i>
+          <button
+            class="btn bg-warning rounded-pill fw-bold py-0 mx-3"
+            type="button"
+            name="button"
+          >
+            Subscribe
+          </button>
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+      <nav class="d-none d-lg-block">
+        <div
+          class="bg-danger d-flex justify-content-between align-items-center p-3"
+        >
+          <div class="text-white d-flex justify-content-center flex-column">
+            <div class="d-flex">
+              <i class="fas fa-cloud-sun pe-3"></i>
+              <h4 class="fs-4 text-nowrap mb-0">
+                <a class="text-white" href="#">28° Caucaia, BR</a>
+              </h4>
+            </div>
+            <p class="mb-0">Wed, Dec 09, 2020</p>
+          </div>
+          <div class="text-center">
+            <a href="#"
+              ><img
+                class="w-50"
+                src="https://images.squarespace-cdn.com/content/v1/5a32d381692ebe22a83e4d78/1513562212001-5XBBJ0O6UWIFE1CAYS1A/ke17ZwdGBToddI8pDm48kDR1cHEV4PDIng9XpMgB5lQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dtPLwAgLFa81C5CRc0ztJ7KrcxTDK4eqnQ4QO8XmcH18CjLISwBs8eEdxAxTptZAUg/NewsweekLogo.png"
+                alt="Newsweek logo"
+            /></a>
+          </div>
+          <div class="text-container d-flex align-items-center">
+            <h2 class="me-4 text-white fs-5 mb-0 fw-bold">LOGIN</h2>
+            <button
+              class="subscribe btn btn-warning rounded-pill fs-5 px-4 py-0 text-uppercase fw-bold"
+              type="button"
+              name="button"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+        <ul
+          class="nav-before list-unstyled fw-bold fs-5 text-nowrap d-flex py-2 mb-0"
+        >
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">U.S.</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">World</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">Business</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">Tech &amp; Science</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">Culture</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">Newsgeek</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">Sports</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">Health</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">The Debate</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">Vantage</a>
+          </li>
+          <li class="px-2 border-end">
+            <a class="text-dark" href="#">Weather</a>
+          </li>
+          <li class="border-0 px-2">
+            <input
+              class="border-0 rounded w-50"
+              type="text"
+              placeholder="Search"
+            /><i class="fas fa-search ms-2"></i>
+          </li>
+        </ul>
+        <ul
+          class="list-unstyled mb-2 fw-bold fs-6 text-uppercase d-flex border-top border-bottom py-2 ps-3"
+        >
+          <li class="px-2"><a class="text-dark" href="#">Trending</a></li>
+          <li class="px-2"><a class="text-muted" href="#">Joe Biden</a></li>
+          <li class="px-2"><a class="text-muted" href="#">Donald Trump</a></li>
+          <li class="px-2"><a class="text-muted" href="#">2020 election</a></li>
+          <li class="px-2"><a class="text-muted" href="#">Coronavirus</a></li>
+          <li class="px-2">
+            <a class="text-muted" href="#">Stimulus Package</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="pt-3 px-4 container-fluid bg-white">
+        <div class="row">
+          <!-- First Main Column -->
+          <div class="col-lg-3 col-md-5">
+            <section class="top-story w-100 col-md-7 d-md-none">
+              <h3 class="text-muted fs-6 fw-bold mb-3">TOP STORY</h3>
+              <article class="card mb-4 border-0">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+            </section>
+            <section class="featured-stories w-100 col-md-5">
+              <h3 class="text-muted fs-6 fw-bold mb-3">FEATURED STORIES</h3>
+              <article class="card mb-4 border-0">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+            </section>
+            <section class="categories-01">
+              <article class="card mb-4 border-0">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-lg-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+            </section>
+          </div>
+          <!-- Second Main Column -->
+          <div class="col-lg-6 col-md-7">
+            <section class="top-story w-100 col-md-7 d-none d-md-block">
+              <h3 class="text-muted fs-6 fw-bold mb-3">TOP STORY</h3>
+              <article class="card mb-4 border-0">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+            </section>
+            <section class="my-turn">
+              <h3 class="text-muted fs-6 fw-bold mb-3">MY TURN</h3>
+              <div class="d-sm-flex">
+                <div class="card border-0 mb-2 me-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                    class="card-img-top"
+                    alt="Reference Image"
+                  />
+                  <div class="card-body p-0 py-3">
+                    <h2 class="card-title lh-1">
+                      <a class="text-muted fs-6 fw-bold" href="#"
+                        >'I'm 23, I Had a Mini Stroke Days After Contracting
+                        COVID'</a
+                      >
+                    </h2>
+                  </div>
+                </div>
+                <div class="card border-0 mb-2 me-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                    class="card-img-top"
+                    alt="Reference Image"
+                  />
+                  <div class="card-body p-0 py-3">
+                    <h2 class="card-title lh-1">
+                      <a class="text-muted fs-6 fw-bold" href="#"
+                        >'I'm 23, I Had a Mini Stroke Days After Contracting
+                        COVID'</a
+                      >
+                    </h2>
+                  </div>
+                </div>
+                <div class="card border-0 mb-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1681275/coronavirus-pandemic-mini-stroke-hospitals.jpg?w=397&h=397&f=ece665acb6b840a4ad0d35977b20dfa7"
+                    class="card-img-top"
+                    alt="Reference Image"
+                  />
+                  <div class="card-body p-0 py-3">
+                    <h2 class="card-title lh-1">
+                      <a class="text-muted fs-6 fw-bold" href="#"
+                        >'I'm 23, I Had a Mini Stroke Days After Contracting
+                        COVID'</a
+                      >
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <h3 class="text-muted text-uppercase fs-6 fw-bold mb-3">
+                Culture &amp; Travel
+              </h3>
+              <div class="d-sm-flex">
+                <div class="card border-0 mb-2 me-2">
+                  <article class="card mb-4 border-0">
+                    <div class="position-relative mb-3">
+                      <a href="#">
+                        <img
+                          class="card-img-top"
+                          src="https://d.newsweek.com/en/full/1682551/suv-micro-rv.webp?w=397&h=397&f=71607eddbf7bb620301976f090cfc8f0"
+                          alt="Reference Image"
+                        />
+                      </a>
+                      <div
+                        class="fw-bold fs-6 text-uppercase position-absolute bottom-0 bg-info px-1"
+                      >
+                        <a class="text-dark fs-6" href="#">Travel</a>
+                      </div>
+                    </div>
+                    <h2 class="card-title lh-1">
+                      <a class="text-muted fs-6 fw-bold" href="#"
+                        >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                        Weak Jobs Data</a
+                      >
+                    </h2>
+                  </article>
+                </div>
+                <div class="card border-0 mb-2 me-2">
+                  <article class="card mb-4 border-0">
+                    <div class="position-relative mb-3">
+                      <a href="#">
+                        <img
+                          class="card-img-top"
+                          src="https://d.newsweek.com/en/full/1682551/suv-micro-rv.webp?w=397&h=397&f=71607eddbf7bb620301976f090cfc8f0"
+                          alt="Reference Image"
+                        />
+                      </a>
+                      <div
+                        class="fw-bold fs-6 text-uppercase position-absolute bottom-0 bg-info px-1"
+                      >
+                        <a class="text-dark fs-6" href="#">Travel</a>
+                      </div>
+                    </div>
+                    <h2 class="card-title lh-1">
+                      <a class="text-muted fs-6 fw-bold" href="#"
+                        >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                        Weak Jobs Data</a
+                      >
+                    </h2>
+                  </article>
+                </div>
+                <div class="card border-0 mb-2">
+                  <article class="card mb-4 border-0">
+                    <div class="position-relative mb-3">
+                      <a href="#">
+                        <img
+                          class="card-img-top"
+                          src="https://d.newsweek.com/en/full/1682551/suv-micro-rv.webp?w=397&h=397&f=71607eddbf7bb620301976f090cfc8f0"
+                          alt="Reference Image"
+                        />
+                      </a>
+                      <div
+                        class="fw-bold fs-6 text-uppercase position-absolute bottom-0 bg-info px-1"
+                      >
+                        <a class="text-dark fs-6" href="#">Travel</a>
+                      </div>
+                    </div>
+                    <h2 class="card-title lh-1">
+                      <a class="text-muted fs-6 fw-bold" href="#"
+                        >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                        Weak Jobs Data</a
+                      >
+                    </h2>
+                  </article>
+                </div>
+              </div>
+            </section>
+            <section class="more-stories">
+              <h3 class="text-muted text-uppercase fs-6 fw-bold mb-3">
+                MORE STORIES
+              </h3>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top">
+                <div class="card d-flex flex-row mb-3 border-0 py-3">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                    <p class="card-text fs-6">
+                      Total active coronavirus cases in the U.S. are projected
+                      to reach over 3.9 million by January 10, according to
+                      forecasts from researchers at the Massachusetts Institute
+                      of Technology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- Third Main Column -->
+          <div class="col-lg-3">
+            <section class="debate pb-5">
+              <h3 class="text-muted text-uppercase fs-6 fw-bold mb-3">
+                THE DEBATE
+              </h3>
+              <div class="pt-3 border-top border-5">
+                <div
+                  class="card d-flex flex-row align-items-center mb-3 border-0"
+                >
+                  <img
+                    class="debate-img"
+                    src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold fs-6">
+                      <a href="#" class="text-dark"
+                        >Should Trump Concede? Yes
+                      </a>
+                    </h5>
+                    <p class="card-text fs-6">By Spencer Klavan</p>
+                  </div>
+                </div>
+              </div>
+              <div class="decoration d-flex justify-content-center">
+                <div
+                  class="vs bg-dark rounded-circle text-light fw-bold fs-6 pt-1"
+                >
+                  VS
+                </div>
+              </div>
+              <div class="border-bottom border-5 pb-3">
+                <div
+                  class="card d-flex flex-row-reverse align-items-center mt-3 border-0"
+                >
+                  <img
+                    class="debate-img"
+                    src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold fs-6">
+                      <a href="#" class="text-dark"
+                        >Should Trump Concede? Yes
+                      </a>
+                    </h5>
+                    <p class="card-text fs-6">By Spencer Klavan</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="opinion pb-4">
+              <h3 class="text-muted text-uppercase fs-6 fw-bold mb-3">
+                OPINION
+              </h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="card d-flex flex-row border-0 py-3">
+                    <img
+                      class="debate-img"
+                      src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                      alt="Reference"
+                    />
+                    <div class="card-body py-0 lh-1">
+                      <h5 class="card-title fw-bold fs-6">
+                        <a href="#" class="text-dark"
+                          >Combating Double Standards Is the Key To Human Rights
+                          for All
+                        </a>
+                      </h5>
+                      <p class="card-text fs-6">By Spencer Klavan</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card d-flex flex-row border-0 py-3">
+                    <img
+                      class="debate-img"
+                      src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                      alt="Reference"
+                    />
+                    <div class="card-body py-0 lh-1">
+                      <h5 class="card-title fw-bold fs-6">
+                        <a href="#" class="text-dark"
+                          >Combating Double Standards Is the Key To Human Rights
+                          for All
+                        </a>
+                      </h5>
+                      <p class="card-text fs-6">By Spencer Klavan</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card d-flex flex-row border-0 py-3">
+                    <img
+                      class="debate-img"
+                      src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                      alt="Reference"
+                    />
+                    <div class="card-body py-0 lh-1">
+                      <h5 class="card-title fw-bold fs-6">
+                        <a href="#" class="text-dark"
+                          >Combating Double Standards Is the Key To Human Rights
+                          for All
+                        </a>
+                      </h5>
+                      <p class="card-text fs-6">By Spencer Klavan</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card d-flex flex-row border-0 py-3">
+                    <img
+                      class="debate-img"
+                      src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                      alt="Reference"
+                    />
+                    <div class="card-body py-0 lh-1">
+                      <h5 class="card-title fw-bold fs-6">
+                        <a href="#" class="text-dark"
+                          >Combating Double Standards Is the Key To Human Rights
+                          for All
+                        </a>
+                      </h5>
+                      <p class="card-text fs-6">By Spencer Klavan</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card d-flex flex-row border-0 py-3">
+                    <img
+                      class="debate-img"
+                      src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                      alt="Reference"
+                    />
+                    <div class="card-body py-0 lh-1">
+                      <h5 class="card-title fw-bold fs-6">
+                        <a href="#" class="text-dark"
+                          >Combating Double Standards Is the Key To Human Rights
+                          for All
+                        </a>
+                      </h5>
+                      <p class="card-text fs-6">By Spencer Klavan</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card d-flex flex-row mb-3 border-0 py-3">
+                    <img
+                      class="debate-img"
+                      src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                      alt="Reference"
+                    />
+                    <div class="card-body py-0 lh-1">
+                      <h5 class="card-title fw-bold fs-6">
+                        <a href="#" class="text-dark"
+                          >Combating Double Standards Is the Key To Human Rights
+                          for All
+                        </a>
+                      </h5>
+                      <p class="card-text fs-6">By Spencer Klavan</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card d-flex flex-row border-0 py-3">
+                    <img
+                      class="debate-img"
+                      src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                      alt="Reference"
+                    />
+                    <div class="card-body py-0 lh-1">
+                      <h5 class="card-title fw-bold fs-6">
+                        <a href="#" class="text-dark"
+                          >Combating Double Standards Is the Key To Human Rights
+                          for All
+                        </a>
+                      </h5>
+                      <p class="card-text fs-6">By Spencer Klavan</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="categories-02 py-4">
+              <article class="card mb-4 border-0">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <div class="border mx-auto my-5 bg-light p-4">
+                <div
+                  class="d-flex align-items-center justify-content-center mb-4 fw-bold fs-3 lh-1"
+                >
+                  <img
+                    class="w-25 me-2"
+                    src="https://image.winudf.com/v2/image1/Y29tLm5ld3N3ZWVrLmFuZHJvaWRhcHBfaWNvbl8xNTY3MDEwMjM2XzA2Ng/icon.png?w=170&fakeurl=1"
+                    alt="Reference Image"
+                  />
+                  Start your day with our top 5 articles
+                </div>
+                <form>
+                  <div class="mb-2">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email address"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-danger w-100 fw-bold">
+                    FREE SIGN UP &gt;
+                  </button>
+                </form>
+              </div>
+              <article class="card mb-4 border-0">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+              <article class="card mb-4 border-0 d-md-none">
+                <div class="position-relative">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1677243/international-school-london-qatar.jpg?w=500&h=333&f=9d300bb823e8a43f09826020cb9f43ac"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <p class="text-primary m-0">Sponsored Insight</p>
+                  </div>
+                </div>
+                <div class="border p-3">
+                  <h2 class="card-title">
+                    <a class="text-dark fw-bold lh-sm" href="#"
+                      >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge,
+                      Weak Jobs Data</a
+                    >
+                  </h2>
+                  <p class="card-text">
+                    Lawmakers from both parties stressed the need to pass a
+                    stimulus bill by the end of the year as Congress considers a
+                    $900 billion bipartisan proposal that does not include
+                    checks.
+                  </p>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="bottom container-fluid bg-white px-4">
+        <section
+          class="in-the-magazine d-flex flex-wrap justify-content-center"
+        >
+          <div
+            class="d-flex align-items-center justify-content-center mb-4 fw-bold fs-3 lh-1"
+          >
+            <img
+              class="format-img me-2"
+              src="https://image.winudf.com/v2/image1/Y29tLm5ld3N3ZWVrLmFuZHJvaWRhcHBfaWNvbl8xNTY3MDEwMjM2XzA2Ng/icon.png?w=170&fakeurl=1"
+              alt="Reference Image"
+            />
+            In The Magazine
+          </div>
+          <div class="d-sm-flex flex-wrap justify-content-between mx-auto">
+            <div class="row">
+              <article class="card mb-4 border-0 col-md-3">
+                <div class="card border-0">
+                  <div class="top-img mb-3 position-relative d-flex justify-content-center">
+                    <a href="#">
+                      <img
+                        class="card-img-top feature-img"
+                        src="https://d.newsweek.com/en/full/1675581/cover-december-04-11-2020.webp?w=450&h=600&q=90&f=a2108eaa3f5b852b5bf2064c286d62bf"
+                        alt="Reference Image"
+                      />
+                    </a>
+                    <div class="bg-light position-absolute bottom-0 p-1 fw-bold text-nowrap">
+                      <a class="text-danger" href="#">DECEMBER 11 ISSUE</a>
+                    </div>
+                  </div>
+                  <a
+                    class="text-dark bg-light text-center fw-bold py-1 fs-6 text-nowrap"
+                    href="#"
+                    >SEE ALL FEATURES &gt;</a
+                  >
+                </div>
+              </article>
+              <article class="card featured mb-4 border-0 col-md-3">
+                <div class="mb-1">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=397&h=265&l=76&t=58&q=90&f=6158794d973a8eba52194967094c2b61"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div class="d-flex align-items-center fw-bold">
+                    <div class="bg-danger text-white me-3 mt-2 px-2">
+                      <a class="bg-danger text-white" href="#">Politics</a>
+                    </div>
+                    <div class="me-3 mt-2 px-2">
+                      <a class="text-danger" href="#">US</a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="lh-1">
+                  <a class="card-title text-dark fw-bold fs-6" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h4>
+              </article>
+              <article class="card featured mb-4 border-0 col-md-3">
+                <div class="mb-1">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=397&h=265&l=76&t=58&q=90&f=6158794d973a8eba52194967094c2b61"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div class="d-flex align-items-center fw-bold">
+                    <div class="bg-danger text-white me-3 mt-2 px-2">
+                      <a class="bg-danger text-white" href="#">Politics</a>
+                    </div>
+                    <div class="me-3 mt-2 px-2">
+                      <a class="text-danger" href="#">US</a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="lh-1">
+                  <a class="card-title text-dark fw-bold fs-6" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h4>
+              </article>
+              <article class="card featured mb-4 border-0 col-md-3">
+                <div class="mb-1">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=397&h=265&l=76&t=58&q=90&f=6158794d973a8eba52194967094c2b61"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div class="d-flex align-items-center fw-bold">
+                    <div class="bg-danger text-white me-3 mt-2 px-2">
+                      <a class="bg-danger text-white" href="#">Politics</a>
+                    </div>
+                    <div class="me-3 mt-2 px-2">
+                      <a class="text-danger" href="#">US</a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="lh-1">
+                  <a class="card-title text-dark fw-bold fs-6" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h4>
+              </article>
+            </div>
+            <div class="row">
+              <article class="card featured mb-4 border-0 col-md-3">
+                <div class="mb-1">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=397&h=265&l=76&t=58&q=90&f=6158794d973a8eba52194967094c2b61"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div class="d-flex align-items-center fw-bold">
+                    <div class="bg-danger text-white me-3 mt-2 px-2">
+                      <a class="bg-danger text-white" href="#">Politics</a>
+                    </div>
+                    <div class="me-3 mt-2 px-2">
+                      <a class="text-danger" href="#">US</a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="lh-1">
+                  <a class="card-title text-dark fw-bold fs-6" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h4>
+              </article>
+              <article class="card featured mb-4 border-0 col-md-3">
+                <div class="mb-1">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=397&h=265&l=76&t=58&q=90&f=6158794d973a8eba52194967094c2b61"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div class="d-flex align-items-center fw-bold">
+                    <div class="bg-danger text-white me-3 mt-2 px-2">
+                      <a class="bg-danger text-white" href="#">Politics</a>
+                    </div>
+                    <div class="me-3 mt-2 px-2">
+                      <a class="text-danger" href="#">US</a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="lh-1">
+                  <a class="card-title text-dark fw-bold fs-6" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h4>
+              </article>
+              <article class="card featured mb-4 border-0 col-md-3">
+                <div class="mb-1">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=397&h=265&l=76&t=58&q=90&f=6158794d973a8eba52194967094c2b61"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div class="d-flex align-items-center fw-bold">
+                    <div class="bg-danger text-white me-3 mt-2 px-2">
+                      <a class="bg-danger text-white" href="#">Politics</a>
+                    </div>
+                    <div class="me-3 mt-2 px-2">
+                      <a class="text-danger" href="#">US</a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="lh-1">
+                  <a class="card-title text-dark fw-bold fs-6" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h4>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="editors-pick">
+          <div
+            class="d-flex align-items-center justify-content-center mb-4 fw-bold fs-3 lh-1"
+          >
+            <img
+              class="format-img me-2"
+              src="https://image.winudf.com/v2/image1/Y29tLm5ld3N3ZWVrLmFuZHJvaWRhcHBfaWNvbl8xNTY3MDEwMjM2XzA2Ng/icon.png?w=170&fakeurl=1"
+              alt="Reference Image"
+            />
+            Editor's Pick
+          </div>
+          <div class="d-sm-flex flex-wrap justify-content-between">
+            <div class="row">
+              <article class="card mb-4 border-0 col-lg-3 col-md-6">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=397&h=265&l=76&t=58&q=90&f=6158794d973a8eba52194967094c2b61"
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0 col-lg-3 col-md-6">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0 col-lg-3 col-md-6">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0 col-lg-3 col-md-6">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+            </div>
+            <div class="row">
+              <article class="card mb-4 border-0 col-lg-3 col-md-6">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0 col-lg-3 col-md-6">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0 col-lg-3 col-md-6">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+              <article class="card mb-4 border-0 col-lg-3 col-md-6">
+                <div class="position-relative mb-3">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1681804/donald-trump-georgia-loeffler-perdue-senate-republican.jpg?w=591&h=364&f=d6542d70feb9163b1288e025be446fe0 "
+                      alt="Reference Image"
+                    />
+                  </a>
+                  <div
+                    class="fw-bold text-uppercase position-absolute bottom-0 bg-light py-2 px-3"
+                  >
+                    <a class="text-danger" href="#">Politics</a>
+                  </div>
+                </div>
+                <h2 class="card-title">
+                  <a class="text-dark fw-bold lh-sm" href="#"
+                    >Stimulus Gains Renewed Urgency Amid U.S. COVID Surge, Weak
+                    Jobs Data</a
+                  >
+                </h2>
+                <p class="card-text lh-sm">
+                  Lawmakers from both parties stressed the need to pass a
+                  stimulus bill by the end of the year as Congress considers a
+                  $900 billion bipartisan proposal that does not include checks.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="us-news border-top">
+          <h3 class="text-danger fw-bold my-3">U.S.</h3>
+          <div class="row">
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush mt-0 col-md-4">
+              <li class="square-pic d-flex list-group-item">
+                <div class="card d-flex flex-row border-0 pb-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="us-news border-top">
+          <h3 class="text-danger fw-bold my-3">U.S.</h3>
+          <div class="row">
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush mt-0 col-md-4">
+              <li class="square-pic d-flex list-group-item">
+                <div class="card d-flex flex-row border-0 pb-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="us-news border-top">
+          <h3 class="text-danger fw-bold my-3">U.S.</h3>
+          <div class="row">
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush mt-0 col-md-4">
+              <li class="square-pic d-flex list-group-item">
+                <div class="card d-flex flex-row border-0 pb-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="us-news border-top">
+          <h3 class="text-danger fw-bold my-3">U.S.</h3>
+          <div class="row">
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush mt-0 col-md-4">
+              <li class="square-pic d-flex list-group-item">
+                <div class="card d-flex flex-row border-0 pb-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="us-news border-top">
+          <h3 class="text-danger fw-bold my-3">U.S.</h3>
+          <div class="row">
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush mt-0 col-md-4">
+              <li class="square-pic d-flex list-group-item">
+                <div class="card d-flex flex-row border-0 pb-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="us-news border-top">
+          <h3 class="text-danger fw-bold my-3">U.S.</h3>
+          <div class="row">
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="card border-0 col-md-4 pt-2">
+              <img
+                src="https://d.newsweek.com/en/full/1682970/nancy-pelosi-stimulus-block-relief.webp?w=397&h=265&f=2ea88fac6336b136d9356440a50483dc"
+                class="card-img-top"
+                alt="Reference Image"
+              />
+              <div class="card-body px-0 pt-1">
+                <h2 class="card-title lh-1">
+                  <a class="text-dark fw-bold fs-5" href="#"
+                    >'I'm 23, I Had a Mini Stroke Days After Contracting
+                    COVID'</a
+                  >
+                </h2>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush mt-0 col-md-4">
+              <li class="square-pic d-flex list-group-item">
+                <div class="card d-flex flex-row border-0 pb-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+              <li class="square-pic d-flex list-group-item pt-2">
+                <div class="card d-flex flex-row border-0 py-1">
+                  <img
+                    class="stories-img"
+                    src="https://d.newsweek.com/en/full/1681919/joe-biden-covid-inauguration-pandemic-fauci.webp?w=95&h=95&f=a0da6420fa8cb0a2ca32aef3f9b24ea7"
+                    alt="Reference"
+                  />
+                  <div class="card-body py-0 lh-1">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-dark"
+                        >COVID Could Infect Over a Million Americans Per Day by
+                        Early January</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="row bottom-row p-4">
+          <section class="subscribe-section col-lg-8 pb-5">
+            <h3 class="text-danger fw-bold my-3 fs-6">SUBSCRIBE</h3>
+            <div class="d-flex flex-wrap">
+              <div class="subscribe-box p-4 d-flex flex-column flex-md-row align-items-center bg-light justify-content-between">
+                <div class="position-relative mx-auto">
+                  <img
+                    src="https://d.newsweek.com/en/full/1671676/cover-november-27-2020.jpg?w=170&q=95&f=58167a570fb61a0b8203f0526bc45eca"
+                    alt="Reference Image"
+                  />
+                  <img
+                    class="position-absolute start-0 top-0 ms-4 mt-3"
+                    src="https://d.newsweek.com/en/full/1675581/cover-december-04-11-2020.jpg?w=170&q=95&f=b831bcfec318510363b4a65a51bc2b6a"
+                    alt="Reference Image"
+                  />
+                </div>
+                <div class="info-text mt-4 py-3 d-flex flex-column align-content-center">
+                  <h2 class="fw-bold fs-3">
+                    In-depth Stories You Don't See Elsewhere About Topics You
+                    Want to Read!
+                  </h2>
+                  <p>
+                    All Access + Weekly Delivery. Choose A Membership That's
+                    Perfect for You!
+                  </p>
+                  <button
+                    class="subscribe-button btn btn-danger fw-bold text-uppercase"
+                    type="button"
+                  >
+                    Subscribe &gt;
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="newsletter col-lg-4">
+            <h3 class="text-danger fw-bold my-3 fs-6">NEWSLETTER</h3>
+            <div class="d-sm-flex pb-4">
+              <div class="card-img bg-img"></div>
+              <div
+                class="card-info border p-4 d-flex flex-column align-items-center justify-content-center"
+              >
+                <h2 class="card-title mb-3">The Starting 5</h2>
+                <p class="card-text text-center mb-3">
+                  See why nearly a quarter of a million subscribers begin their
+                  day with the Starting 5.
+                </p>
+                <div class="input-group flex-lg-column mb-3">
+                  <input
+                    type="email"
+                    class="form-control mb-2"
+                    placeholder="Email address"
+                  />
+                  <button
+                    class="btn btn-danger fw-bold fs-5 text-uppercase btn-outline mb-2"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    FREE SIGN UP &gt;
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid bg-white p-4">
+      <section class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-end">
+        <div class="d-flex flex-wrap flex-md-nowrap align-items-end">
+          <a class="mb-md-2 w-75" href="#"
+            ><img
+              class="mb-1 footer-logo"
+              src="https://logodix.com/logo/1685399.png"
+              alt="Reference Image"
+          /></a>
+          <p class="fs-6 text-secondary mb-md-2 ms-md-2 text-nowrap">
+            © 2020 NEWSWEEK DIGITAL LLC
+          </p>
+        </div>
+        <ul class="d-flex list-unstyled mb-md-2">
+          <li>
+            <a class="text-dark me-1 m-md-2" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a class="text-dark me-1 m-md-2" href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a class="text-dark me-1 m-md-2" href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a class="text-dark me-1 m-md-2" href="#"
+              ><i class="fab fa-tumblr"></i
+            ></a>
+          </li>
+          <li>
+            <a class="text-dark me-1 m-md-2" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <ul class="d-flex flex-wrap edition-links border-top list-unstyled py-2">
+        <li class="pe-2 m-1 lh-1 text-black-50 fw-bold pe-2">Editions:</li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">U.S. Edition</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">日本</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Pakistan</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Polska</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">România</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">About Us</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Corrections</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Contact Us</a></li>
+        <li class="border-right pe-2 m-1 lh-1">
+          <a class="text-secondary" href="#">Editorial Guidelines</a>
+        </li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Advertise</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Copyright</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Terms & Conditions</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Privacy Policy</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Cookie Policy</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Terms of Sale</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Archive</a></li>
+        <li class="border-right pe-2 m-1 lh-1"><a class="text-secondary" href="#">Announcements</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
