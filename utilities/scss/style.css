@@ -67,6 +67,11 @@ a {
   width: 29px;
 }
 
+.footer-logo {
+  width: 100%;
+  height: auto;
+}
+
 .decoration {
   position: relative;
   display: flex;
@@ -134,8 +139,18 @@ a {
   .bg-img {
     height: 300px;
   }
+
+  .footer-logo {
+    width: 236px;
+    height: auto;
+  }
 }
 @media (min-width: 1024px) {
+  .feature-img {
+    width: auto;
+    height: 230px;
+  }
+
   .newsletter .bg-img {
     height: 403px;
   }
