@@ -42,39 +42,37 @@ a {
   @include block-separation;
 }
 
-.hov-fx {	
-	color: #dfe5f3;
+.hov-fx {
+  color: #dfe5f3;
   text-decoration: none;
   background-image: linear-gradient(#dc3545, #dc3545);
   background-size: 0 2px, 100% 2px;
   background-position: 55% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size .5s cubic-bezier(.46,.03,.52,.96);
+  transition: background-size 0.5s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
-	&:hover {
-		background-size: 100% 2px, 0 2px;
-	}
+  &:hover {
+    background-size: 100% 2px, 0 2px;
+  }
 }
 
 .subscribe {
-	transition: all .3s ease;
+  transition: all 0.3s ease;
 
-	&:hover {
-		border: 1px solid #ffc107;
-		background-color: #dc3545;
-		color: #ffc107;
-	}
-
+  &:hover {
+    border: 1px solid #ffc107;
+    background-color: #dc3545;
+    color: #ffc107;
+  }
 }
 
 .btn-fx {
-	transition: transform .2s;
+  transition: transform 0.2s;
 
-	&:hover {
-		transform: scale(1.1);
-	}
+  &:hover {
+    transform: scale(1.1);
+  }
 }
-
 
 /* NavBar */
 
