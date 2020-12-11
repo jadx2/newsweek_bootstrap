@@ -11,6 +11,7 @@ a {
   text-decoration: none;
 }
 
+.featured-stories::before,
 .categories-01::before,
 .debate::before,
 .editors-pick::before,
@@ -109,6 +110,12 @@ a {
   top: calc(50% - 2px);
 }
 
+.subscribe-button {
+  margin: auto;
+  width: 143px;
+  font-size: 18px;
+}
+
 .bg-img {
   background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
   background-size: cover;
@@ -116,9 +123,14 @@ a {
   height: 200px;
 }
 
+.info-text {
+  text-align: center;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
-  .categories-01::before,
+  .featured-stories::before,
+.categories-01::before,
 .debate::before,
 .editors-pick::before,
 .footer::before,
@@ -136,13 +148,30 @@ a {
     margin: 0 auto;
   }
 
+  .subscribe-box {
+    padding: 14px 30px 30px 30px;
+  }
+
+  .info-text {
+    text-align: left;
+    padding-left: 65px;
+  }
+
   .bg-img {
     height: 300px;
+  }
+
+  .subscribe-button {
+    margin: 0;
   }
 
   .footer-logo {
     width: 236px;
     height: auto;
+  }
+
+  .border-right {
+    border-right: 1px solid #d9d9d9;
   }
 }
 @media (min-width: 1024px) {
@@ -152,7 +181,7 @@ a {
   }
 
   .newsletter .bg-img {
-    height: 403px;
+    height: 327px;
   }
   .newsletter .input-group .form-control {
     width: 100%;
