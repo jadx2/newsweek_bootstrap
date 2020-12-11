@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML & CSS 2.0 - Project 3: Using Bootstrap
 
 > HTML & CSS 2.0 - Project 3: Using Bootstrap
 
