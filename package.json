@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"sass": "sass --watch utilities/scss/style.scss utilities/scss/style.css",
-		"stylelint": "npx stylelint '**/*.scss'"
+    "sass": "sass --watch utilities/scss/style.scss utilities/scss/style.css",
+    "stylelint": "npx stylelint '**/*.scss'"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jaimdedan/newsweek_bootstrap#readme",
   "devDependencies": {
     "hint": "^6.0.7",
+    "prettier-stylelint": "^0.4.2",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.9.0",
