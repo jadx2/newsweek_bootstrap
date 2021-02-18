@@ -33,6 +33,35 @@ a {
   margin-bottom: 15px;
 }
 
+.hov-fx {
+  color: #dfe5f3;
+  text-decoration: none;
+  background-image: linear-gradient(#dc3545, #dc3545);
+  background-size: 0 2px, 100% 2px;
+  background-position: 55% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+}
+.hov-fx:hover {
+  background-size: 100% 2px, 0 2px;
+}
+
+.subscribe {
+  transition: all 0.3s ease;
+}
+.subscribe:hover {
+  border: 1px solid #ffc107;
+  background-color: #dc3545;
+  color: #ffc107;
+}
+
+.btn-fx {
+  transition: transform 0.2s;
+}
+.btn-fx:hover {
+  transform: scale(1.1);
+}
+
 /* NavBar */
 .nav-before {
   position: relative;
