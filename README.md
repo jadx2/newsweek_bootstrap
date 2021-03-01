@@ -31,8 +31,9 @@ To get a local copy up and running follow these simple example steps:
 
 👤 **Jaim Delmar**
 
-- GitHub: [@jaimdedan](https://github.com/jaimdedan)
-- Twitter: [@Usernamejaim](https://twitter.com/Usernamejaim)
+- GitHub: [@jadx2](https://github.com/jadx2)
+- Twitter: [@thecatcodes](https://twitter.com/thecatcodes)
+- LinkedIn: [Jaim Delmar](https://www.linkedin.com/in/jaimdelmar/)
 
 👤 **João Paulo Dias França**
 
